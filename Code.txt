@@ -1,0 +1,32 @@
+#define F_CPU 8000000
+
+#include <avr/io.h>
+#include <util/delay.h>
+
+int main(void)
+{
+	char outpt[16];
+	
+	lcd_init();
+	
+	lcd_data('1');
+	lcd_data('2');
+	lcd_data('3');
+	
+	lcd_setcursor(0, 2);
+	
+	lcd_string("Text");
+	
+	_delay_ms(2500);
+	
+    while(1)
+    {
+		for(int i=0; i<=9; i++)
+		{
+			itoa(i, outpt, 10);
+			lcd_clear();
+			lcd_string(outpt);
+			_delay_ms(750);
+		} 
+    }
+}
