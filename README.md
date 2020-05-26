@@ -5,7 +5,7 @@ Garden assistant is the kind of The smart garden is an innovative self-growing g
 + Perfect amount of nutrients and oxygen at root level.
 + follow temperature, humidity and PH your garden. 
 
-The system include atmega128 microcontroller with role be CPU (A central processing unit). peripheral devices of system are esp8266, SX1278 LoRa Module, module sim800L, rtc (real time clock) ds3231 moduleLCD, keyboard matrix and sensors.
+The system include atmega128 microcontroller with role be CPU (A central processing unit). peripheral devices of system are esp8266, SX1278 LoRa Module, module sim800L, rtc (real time clock) ds3231 module, LCD, keyboard matrix and sensors.
 
 ![](Images/System_1.png)
 
